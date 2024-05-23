@@ -68,10 +68,8 @@ button.addEventListener('click', ()=>{
             loadQUiz()
         }else{
             quiz.InnerHtml = '
-            <h2> você certo ${score}/${quizdata.length} das questões</h2>
-            <button onclick="location_reload()"> joga de novo</button>
-            '
+                <h2> você certo ${score}/${quizdata.length} das questões</h2>
+                <button onclick="location_reload()"> joga de novo</button>
         }
     }
-}
-)
+})

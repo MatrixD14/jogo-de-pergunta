@@ -1,0 +1,3 @@
+e so um jogo de pergunta, como a tela inicial tem que fazer login, que esta ligado ao banco 
+de dado, e quando esse dado for envidado vai para tela de inicia o jogo, e quando o usuario
+clica vai para um menu que vai tem dois jogo, e so escolher um e se diverti...

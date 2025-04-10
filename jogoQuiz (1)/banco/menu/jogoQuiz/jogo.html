@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Título da página</title>
+        <link rel="stylesheet" href="estilo/jogo.css" />
+        <link rel="icon" type="image/x-icon" href="./estilo/iconSenai.png" />
+    </head>
+    <body>
+        <div class="par">
+            <div class="pergu">
+                <img
+                    src="component/memoriaRam.png"
+                    alt="memoria Ram"
+                    width="200px"
+                /><br />
+                Qual e a memória de acesso rápido quando acessa o <br />app na
+                segunda vez?
+                <hr />
+                <input type="radio" name="quz1" id="correto1" class="radio" />
+                <label for="correto1">Memória Ram</label>
+
+                <input type="radio" name="quz1" class="radio" id="erro_0" />
+                <label for="erro_0">SSD HD</label>
+
+                <input type="radio" name="quz1" class="radio" id="erro_1" />
+                <label for="erro_1">Mouse</label>
+
+                <input type="radio" name="quz1" class="radio" id="erro_2" />
+                <label for="erro_2">CPU</label>
+                <button class="net" onclick="net(1)">seguir</button>
+            </div>
+        </div>
+        <div class="par">
+            <div class="pergu">
+                <img
+                    src="component/HdSsd.png"
+                    alt="HD SSD"
+                    width="200px"
+                /><br />
+                Qual e a memória que tem armazenamente permanente?
+                <hr />
+                <input type="radio" name="quz2" class="radio" id="erro_3" />
+                <label for="erro_3">Memória Ram</label>
+
+                <input type="radio" name="quz2" id="correto2" class="radio" />
+                <label for="correto2">SSD HD</label>
+
+                <input type="radio" name="quz2" class="radio" id="erro_4" />
+                <label for="erro_4">Cooler</label>
+
+                <input type="radio" name="quz2" class="radio" id="erro_5" />
+                <label for="erro_5">CPU</label>
+                <button class="net" onclick="net(2)">seguir</button>
+            </div>
+        </div>
+        <div class="par">
+            <div class="pergu">
+                <img
+                    src="component/gabinete.png"
+                    alt="gabinete"
+                    width="150px"
+                /><br />
+                Qual e o nome da capa que protege os componente do computador?
+                <hr />
+                <input type="radio" name="quz3" id="correto3" class="radio" />
+                <label for="correto3">Gabinete</label>
+
+                <input type="radio" name="quz3" class="radio" id="erro_6" />
+                <label for="erro_6">SSD HD</label>
+
+                <input type="radio" name="quz3" class="radio" id="erro_7" />
+                <label for="erro_7"> Munitor</label>
+
+                <input type="radio" name="quz3" class="radio" id="erro_8" />
+                <label for="erro_8">Cooler</label>
+                <button class="net" onclick="net(3)">seguir</button>
+            </div>
+        </div>
+        <div class="par">
+            <div class="pergu">
+                <img src="component/Cpu.png" alt="CPU" width="200px" /><br />
+                Qual e o nome do componente que tem a função de fazer<br />
+                cálculo e executar as tarefas no computador?
+                <hr />
+                <input type="radio" name="quz4" class="radio" id="erro_9" />
+                <label for="erro_9">Fonte de alimentação</label>
+
+                <input type="radio" name="quz4" class="radio" id="erro_10" />
+                <label for="erro_10">SSD HD</label>
+
+                <input type="radio" name="quz4" class="radio" id="erro_11" />
+                <label for="erro_11">Munitor</label>
+
+                <input type="radio" name="quz4" id="correto4" class="radio" />
+                <label for="correto4">CPU</label>
+                <button class="net" onclick="net(4)">seguir</button>
+            </div>
+        </div>
+        <div class="par">
+            <div class="pergu">
+                <img
+                    src="component/placadevideo.png"
+                    alt="placa de video"
+                    width="120px"
+                /><br />
+                Qual e o nome do componente que tem a função de renderizar<br />
+                gráficos de imagens e vídeos?
+                <hr />
+                <input type="radio" name="quz5" class="radio" id="erro_12" />
+                <label for="erro_12">Placa mãe</label>
+
+                <input type="radio" name="quz5" class="radio" id="erro_13" />
+                <label for="erro_13">CPU</label>
+
+                <input type="radio" name="quz5" class="radio" id="erro_14" />
+                <label for="erro_14">Munitor</label>
+
+                <input type="radio" name="quz5" id="correto5" class="radio" />
+                <label for="correto5">Placa de video</label>
+                <button class="net" onclick="net(5)">seguir</button>
+            </div>
+        </div>
+        <div class="par">
+            <div class="pergu">
+                <img
+                    src="component/cooler.png"
+                    alt="Cooler"
+                    width="130px"
+                /><br />
+                Qual e o nome do componente que tem a função de resfriar ou
+                <br />ventilar o computador?
+                <hr />
+                <input type="radio" name="quz6" class="radio" id="erro_15" />
+                <label for="erro_15">Placa mãe</label>
+
+                <input type="radio" name="quz6" class="radio" id="erro_16" />
+                <label for="erro_16">Gabinete</label>
+
+                <input type="radio" name="quz6" class="radio" id="erro_17" />
+                <label for="erro_17">CPU</label>
+
+                <input type="radio" name="quz6" id="correto6" class="radio" />
+                <label for="correto6">Cooler</label>
+                <button class="net" onclick="net(6)">seguir</button>
+            </div>
+        </div>
+        <div class="par">
+            <div class="pergu">
+                <img
+                    src="component/fontedeAlimentacao.png"
+                    alt="fonet de alimentação"
+                    width="100px"
+                /><br />
+                Qual e o nome do componente que tem a função de converte/filtra
+                <br />a energia amperes para corrente continua para o
+                computador?
+                <hr />
+                <input type="radio" name="quz7" class="radio" id="erro_18" />
+                <label for="erro_18">Gabinete</label>
+
+                <input type="radio" name="quz7" class="radio" id="erro_19" />
+                <label for="erro_19">SSD HD</label>
+
+                <input type="radio" name="quz7" class="radio" id="correto7" />
+                <label for="correto7">Fonte de alimentação</label>
+
+                <input type="radio" name="quz7" class="radio" id="erro_20" />
+                <label for="erro_20">CPU</label>
+                <button class="net" onclick="net(7)">seguir</button>
+            </div>
+        </div>
+        <div class="par">
+            <div class="pergu">
+                <img
+                    src="component/mouse.png"
+                    alt="mouse"
+                    width="150px"
+                /><br />
+                Qual componente que não e um dispositivo de saida de informação?
+                <hr />
+                <input type="radio" name="quz8" id="correto8" class="radio" />
+                <label for="correto8">Mouse</label>
+
+                <input type="radio" name="quz8" class="radio" id="erro_21" />
+                <label for="erro_21">Impressora</label>
+
+                <input type="radio" name="quz8" class="radio" id="erro_22" />
+                <label for="erro_22">Munitor</label>
+
+                <input type="radio" name="quz8" class="radio" id="erro_23" />
+                <label for="erro_23">Caixa de som</label>
+                <button class="net" onclick="net(8)">seguir</button>
+            </div>
+        </div>
+        <div class="par">
+            <div class="pergu">
+                <img
+                    src="component/teclado.png"
+                    alt="teclado"
+                    width="250px"
+                /><br />
+                Qual e o nome do componente que serve para conversa com o
+                computador?
+                <hr />
+                <input type="radio" name="quz9" class="radio" id="erro_24" />
+                <label for="erro_24">Pen Drive</label>
+
+                <input type="radio" name="quz9" class="radio" id="erro_25" />
+                <label for="erro_25">Munitor</label>
+
+                <input type="radio" name="quz9" id="correto9" class="radio" />
+                <label for="correto9">Teclado</label>
+
+                <input type="radio" name="quz9" class="radio" id="erro_26" />
+                <label for="erro_26">Gabinete</label>
+                <button class="net" onclick="net(9)">seguir</button>
+            </div>
+        </div>
+        <div class="par">
+            <div class="pergu">
+                <img
+                    src="component/placaMae.png"
+                    alt="placa mae"
+                    width="140px"
+                /><br />
+                Qual e a peças que conecta todos os outro componentes?
+                <hr />
+                <input type="radio" name="quz10" class="radio" id="erro_27" />
+                <label for="erro_27">Fonte de alimentação</label>
+
+                <input type="radio" name="quz10" class="radio" id="erro_28" />
+                <label for="erro_28">Placa de video</label>
+
+                <input type="radio" name="quz10" class="radio" id="erro_29" />
+                <label for="erro_29">HD</label>
+
+                <input type="radio" name="quz10" id="correto10" class="radio" />
+                <label for="correto10">Placa mãe</label>
+                <button onclick="net(10)">seguir</button>
+            </div>
+        </div>
+        <div class="par">
+            <div class="pergu">
+                <h1 class="resu"></h1>
+                <button class="but" onclick="re()">ver o resutado</button>
+                <a href="./../../../log/inicioJogo.html"
+                    ><button class="inis">sair</button></a
+                >
+            </div>
+        </div>
+        <script src="mecanica/jogo.js"></script>
+    </body>
+</html>

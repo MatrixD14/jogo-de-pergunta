@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Quiz de informatica</title>
+        <link rel="stylesheet" href="inicio.css" />
+        <link
+            rel="icon"
+            type="image/x-icon"
+            href="./iconSenai.png"
+        />
+    </head>
+    <body>
+        <div class="sentro">
+            <form
+                action="./../banco/Pegdb.php"
+                method="POST"
+                class="nomeForm"
+                id="nomeForm"
+            >
+                <h1 class="texto">Quiz de informatica</h1>
+                <br />
+                <label for="Nome">adicione o seu nome:</label>
+                <input
+                    type="text"
+                    name="Nome"
+                    placeholder="Nome"
+                    id="Nome"
+                    class="Nome"
+                    required
+                />
+                <button type="submit" class="butaos" id="but">Enviar</button>
+            </form>
+        </div>
+    </body>
+</html>

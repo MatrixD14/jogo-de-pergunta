@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Jogo de Perguntas</title>
+        <link
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="jogo.css" />
+        <link rel="icon" type="image/x-icon" href="./logojogo.png" />
+    </head>
+
+    <body class="d-flex flex-column min-vh-100">
+        <div class="container mt-5 flex-grow-1">
+            <div class="text-center mb-4">
+                <h1>Jogo de Perguntas</h1>
+                <div id="timer" class="badge badge-secondary"></div>
+            </div>
+            <div id="game">
+                <p id="question" class="h4"></p>
+                <div id="options" class="mb-3"></div>
+                <button
+                    id="next"
+                    class="btn btn-primary"
+                    onclick="nextQuestion()"
+                >
+                    Próxima Pergunta
+                </button>
+            </div>
+            <div id="result" class="text-center" style="display: none">
+                <h2>Fim do Jogo</h2>
+                <p id="score" class="h4"></p>
+            </div>
+            <div class="text-center mt-4">
+                <button id="endEarly" class="btn btn-danger">Encerrar</button>
+                <a id="endEarly" class="btn btn-danger" href="./inicioJogo.html"
+                    >tela login</a
+                ><br />
+            </div>
+            <img src="./logojogo.png" width="248px" />
+        </div>
+        <footer class="text-center mt-auto py-3 bg-light">
+            <p>
+                &copy; 2024 Desenvolvido pelo aluno: Pedro Henrique De Pinho
+                Jesus e SENAI.
+            </p>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="jogos.js"></script>
+    </body>
+</html>

@@ -1,0 +1,52 @@
+/* telaInicial.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #f1f1f3, #fefefe);
+    color: #5613ae;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+    background: rgb(244, 244, 244);
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(22, 22, 22, 0.959);
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #5f23e0;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #38198e;
+}
+
+a {
+    display: inline-block;
+    padding: 15px 30px;
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #ffffff;
+    text-decoration: none;
+    background: #54089f;
+    border-radius: 30px;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+a:hover {
+    background: #79259d;
+    color: #ffffff;
+}
